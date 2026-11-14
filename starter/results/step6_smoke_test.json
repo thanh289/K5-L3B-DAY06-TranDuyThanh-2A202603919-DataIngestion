@@ -1,0 +1,237 @@
+{
+  "status": "Step 6 OK",
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "search_type": "exact_cosine",
+  "content_pages": 37,
+  "chunks_stored": {
+    "A": 274,
+    "B": 329,
+    "C": "reuses B"
+  },
+  "ingestion": {
+    "A": {
+      "chunks": 274,
+      "reused": 0,
+      "new_embeddings": 274
+    },
+    "B": {
+      "chunks": 329,
+      "reused": 0,
+      "new_embeddings": 329
+    }
+  },
+  "openai_api_calls_this_run": 12,
+  "openai_prompt_tokens_this_run": 57214,
+  "elapsed_seconds": 41.04,
+  "smoke_question": "Theo chương Digital Adoption, năm 2022 có bao nhiêu người dùng Internet toàn cầu?",
+  "smoke_filter_for_c": {
+    "section": "chapter_1"
+  },
+  "top3": {
+    "A": [
+      {
+        "chunk_id": "digital_progress_2023:p029:fixed:500-50:0000",
+        "document_id": "digital_progress_2023",
+        "source": "starter/data/digital_progress_2023.pdf",
+        "page": 29,
+        "section": "chapter_1",
+        "text": "3\n1\nDigital Adoption: Accelerating\nPostpandemic, yet a Widening Divide\nYan Liu, Rami Amin, and Henry Stemmler\nKEY MESSAGES\n• The world gained 1.5 billion new internet users from 2018 to 2022, with accelerated growth in\nmiddle-income countries amplified by the COVID-19 pandemic. However, low-income countries\nare falling behind, with only one in four people using the internet in 2022.\n• Affordability continues to be a main barrier to internet use. Median fixed broadband prices\nin low-income countr",
+        "metadata": {
+          "overlap": 50,
+          "page_id": "digital_progress_2023:p029",
+          "section": "chapter_1",
+          "char_end": 500,
+          "is_empty": false,
+          "char_count": 2483,
+          "char_start": 0,
+          "chunk_size": 500,
+          "chunk_index": 0,
+          "chunk_method": "fixed",
+          "printed_page": 3,
+          "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+          "extraction_error": null
+        },
+        "score": 0.5513121534196289
+      },
+      {
+        "chunk_id": "digital_progress_2023:p031:fixed:500-50:0000",
+        "document_id": "digital_progress_2023",
+        "source": "starter/data/digital_progress_2023.pdf",
+        "page": 31,
+        "section": "chapter_1",
+        "text": "D IGIT AL A DOPTION : A cc ELER ATING P OSTP ANDE m I c , y ET A W IDENING D I v IDE 5\nFIGURE 1.1 Internet users as a share of population, global and by country income group, 1990–202 2\nSources: World Development Indicators and International Telecommunication Union data ( https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx ).\nNote: HIC = high-income countries; LIC = low-income countries; LMIC = lower-middle-income countries; UMIC = upper-middle-income countries.\n0\n1\n2\n3\n4\n5\n6\n0\n10\n20",
+        "metadata": {
+          "overlap": 50,
+          "page_id": "digital_progress_2023:p031",
+          "section": "chapter_1",
+          "char_end": 500,
+          "is_empty": false,
+          "char_count": 3237,
+          "char_start": 0,
+          "chunk_size": 500,
+          "chunk_index": 0,
+          "chunk_method": "fixed",
+          "printed_page": 5,
+          "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+          "extraction_error": null
+        },
+        "score": 0.5240449894033672
+      },
+      {
+        "chunk_id": "digital_progress_2023:p030:fixed:500-50:0002",
+        "document_id": "digital_progress_2023",
+        "source": "starter/data/digital_progress_2023.pdf",
+        "page": 30,
+        "section": "chapter_1",
+        "text": "utz 2021; Cirera, Comin, and Cruz 2022). Vast\ndigital divides also exist across countries. More than 90 percent of people in high-income countries\nused the internet in 2022, compared with 25 percent in low-income countries.\nThis chapter highlights trends in digital adoption and identifies remaining barriers to adoption,\nplacing particular focus on low- and middle-income countries, where the lingering presence of well-\nknown obstacles to adoption are the most profound. The chapter also analyzes h",
+        "metadata": {
+          "overlap": 50,
+          "page_id": "digital_progress_2023:p030",
+          "section": "chapter_1",
+          "char_end": 1400,
+          "is_empty": false,
+          "char_count": 4098,
+          "char_start": 900,
+          "chunk_size": 500,
+          "chunk_index": 2,
+          "chunk_method": "fixed",
+          "printed_page": 4,
+          "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+          "extraction_error": null
+        },
+        "score": 0.5199438026257847
+      }
+    ],
+    "B": [
+      {
+        "chunk_id": "digital_progress_2023:p029:paragraph:500:0000",
+        "document_id": "digital_progress_2023",
+        "source": "starter/data/digital_progress_2023.pdf",
+        "page": 29,
+        "section": "chapter_1",
+        "text": "3 1 Digital Adoption: Accelerating Postpandemic, yet a Widening Divide Yan Liu, Rami Amin, and Henry Stemmler KEY MESSAGES • The world gained 1.5 billion new internet users from 2018 to 2022, with accelerated growth in middle-income countries amplified by the COVID-19 pandemic. However, low-income countries are falling behind, with only one in four people using the internet in 2022.",
+        "metadata": {
+          "page_id": "digital_progress_2023:p029",
+          "section": "chapter_1",
+          "is_empty": false,
+          "max_size": 500,
+          "char_count": 2483,
+          "chunk_index": 0,
+          "chunk_method": "paragraph",
+          "printed_page": 3,
+          "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+          "extraction_error": null
+        },
+        "score": 0.5760995469789975
+      },
+      {
+        "chunk_id": "digital_progress_2023:p031:paragraph:500:0000",
+        "document_id": "digital_progress_2023",
+        "source": "starter/data/digital_progress_2023.pdf",
+        "page": 31,
+        "section": "chapter_1",
+        "text": "D IGIT AL A DOPTION : A cc ELER ATING P OSTP ANDE m I c , y ET A W IDENING D I v IDE 5 FIGURE 1.1 Internet users as a share of population, global and by country income group, 1990–202 2 Sources: World Development Indicators and International Telecommunication Union data ( https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx ).",
+        "metadata": {
+          "page_id": "digital_progress_2023:p031",
+          "section": "chapter_1",
+          "is_empty": false,
+          "max_size": 500,
+          "char_count": 3237,
+          "chunk_index": 0,
+          "chunk_method": "paragraph",
+          "printed_page": 5,
+          "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+          "extraction_error": null
+        },
+        "score": 0.5478997297633366
+      },
+      {
+        "chunk_id": "digital_progress_2023:p030:paragraph:500:0003",
+        "document_id": "digital_progress_2023",
+        "source": "starter/data/digital_progress_2023.pdf",
+        "page": 30,
+        "section": "chapter_1",
+        "text": "This chapter highlights trends in digital adoption and identifies remaining barriers to adoption, placing particular focus on low- and middle-income countries, where the lingering presence of well- known obstacles to adoption are the most profound. The chapter also analyzes how the COVID-19 pandemic has affected the patterns of internet use and examines how firms have adopted and invested in digital technologies.",
+        "metadata": {
+          "page_id": "digital_progress_2023:p030",
+          "section": "chapter_1",
+          "is_empty": false,
+          "max_size": 500,
+          "char_count": 4098,
+          "chunk_index": 3,
+          "chunk_method": "paragraph",
+          "printed_page": 4,
+          "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+          "extraction_error": null
+        },
+        "score": 0.5072973283595573
+      }
+    ],
+    "C": [
+      {
+        "chunk_id": "digital_progress_2023:p029:paragraph:500:0000",
+        "document_id": "digital_progress_2023",
+        "source": "starter/data/digital_progress_2023.pdf",
+        "page": 29,
+        "section": "chapter_1",
+        "text": "3 1 Digital Adoption: Accelerating Postpandemic, yet a Widening Divide Yan Liu, Rami Amin, and Henry Stemmler KEY MESSAGES • The world gained 1.5 billion new internet users from 2018 to 2022, with accelerated growth in middle-income countries amplified by the COVID-19 pandemic. However, low-income countries are falling behind, with only one in four people using the internet in 2022.",
+        "metadata": {
+          "page_id": "digital_progress_2023:p029",
+          "section": "chapter_1",
+          "is_empty": false,
+          "max_size": 500,
+          "char_count": 2483,
+          "chunk_index": 0,
+          "chunk_method": "paragraph",
+          "printed_page": 3,
+          "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+          "extraction_error": null
+        },
+        "score": 0.5760995469789975
+      },
+      {
+        "chunk_id": "digital_progress_2023:p031:paragraph:500:0000",
+        "document_id": "digital_progress_2023",
+        "source": "starter/data/digital_progress_2023.pdf",
+        "page": 31,
+        "section": "chapter_1",
+        "text": "D IGIT AL A DOPTION : A cc ELER ATING P OSTP ANDE m I c , y ET A W IDENING D I v IDE 5 FIGURE 1.1 Internet users as a share of population, global and by country income group, 1990–202 2 Sources: World Development Indicators and International Telecommunication Union data ( https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx ).",
+        "metadata": {
+          "page_id": "digital_progress_2023:p031",
+          "section": "chapter_1",
+          "is_empty": false,
+          "max_size": 500,
+          "char_count": 3237,
+          "chunk_index": 0,
+          "chunk_method": "paragraph",
+          "printed_page": 5,
+          "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+          "extraction_error": null
+        },
+        "score": 0.5478997297633366
+      },
+      {
+        "chunk_id": "digital_progress_2023:p030:paragraph:500:0003",
+        "document_id": "digital_progress_2023",
+        "source": "starter/data/digital_progress_2023.pdf",
+        "page": 30,
+        "section": "chapter_1",
+        "text": "This chapter highlights trends in digital adoption and identifies remaining barriers to adoption, placing particular focus on low- and middle-income countries, where the lingering presence of well- known obstacles to adoption are the most profound. The chapter also analyzes how the COVID-19 pandemic has affected the patterns of internet use and examines how firms have adopted and invested in digital technologies.",
+        "metadata": {
+          "page_id": "digital_progress_2023:p030",
+          "section": "chapter_1",
+          "is_empty": false,
+          "max_size": 500,
+          "char_count": 4098,
+          "chunk_index": 3,
+          "chunk_method": "paragraph",
+          "printed_page": 4,
+          "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+          "extraction_error": null
+        },
+        "score": 0.5072973283595573
+      }
+    ]
+  }
+}

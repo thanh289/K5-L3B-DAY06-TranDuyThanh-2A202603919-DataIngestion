@@ -1,0 +1,355 @@
+{
+  "source_id": "digital_progress_2023",
+  "title": "Digital Progress and Trends Report 2023",
+  "publisher": "The World Bank",
+  "publication_year": 2024,
+  "source_path_or_url": "starter/data/digital_progress_2023.pdf",
+  "source_reference": "https://doi.org/10.1596/978-1-4648-2049-6",
+  "license_or_permission": "Creative Commons Attribution 3.0 IGO (CC BY 3.0 IGO)",
+  "rights_note": "Cite World Bank (2024). Some third-party images, figures, or other material may require separate permissions.",
+  "accessed_at": "2026-11-13",
+  "snapshot": {
+    "file_sha256": "b5d0a73dd7fdb7e7a0a274981b8c392cff7f0fe6eb916a63025e48ce02098432",
+    "file_size_bytes": 14051043,
+    "pdf_total_physical_pages": 177
+  },
+  "corpus_scope": {
+    "included_pdf_page_ranges_1_based": [
+      [
+        29,
+        45
+      ],
+      [
+        49,
+        68
+      ]
+    ],
+    "excluded_pdf_page_ranges_1_based": [
+      [
+        1,
+        28
+      ],
+      [
+        46,
+        48
+      ],
+      [
+        69,
+        177
+      ]
+    ],
+    "content_page_count": 37,
+    "total_normalized_char_count": 117348,
+    "counting_method": "Count each selected PDF page once; exclude front matter, blank separators, chapter 1 bibliography (PDF pages 46-47), and all material outside chapters 1 and 2. Page numbers are 1-based physical PDF indices; printed_page is the report page number.",
+    "text_extraction": "PyMuPDF page.get_text(\"text\")",
+    "normalization": "Unicode NFKC; remove soft hyphen U+00AD; collapse all whitespace runs to one space; strip leading/trailing whitespace. Counts include extracted figure captions and running headers.",
+    "min_normalized_chars_per_selected_page": 1653,
+    "metadata_filter": {
+      "field": "section",
+      "type": "string",
+      "values": [
+        "chapter_1",
+        "chapter_2"
+      ],
+      "assignment": "by verified chapter page ranges in the PDF"
+    }
+  },
+  "pages": [
+    {
+      "page_id": "digital_progress_2023:p029",
+      "pdf_page": 29,
+      "printed_page": 3,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 2483
+    },
+    {
+      "page_id": "digital_progress_2023:p030",
+      "pdf_page": 30,
+      "printed_page": 4,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 4124
+    },
+    {
+      "page_id": "digital_progress_2023:p031",
+      "pdf_page": 31,
+      "printed_page": 5,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 3260
+    },
+    {
+      "page_id": "digital_progress_2023:p032",
+      "pdf_page": 32,
+      "printed_page": 6,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 3243
+    },
+    {
+      "page_id": "digital_progress_2023:p033",
+      "pdf_page": 33,
+      "printed_page": 7,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 2556
+    },
+    {
+      "page_id": "digital_progress_2023:p034",
+      "pdf_page": 34,
+      "printed_page": 8,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 3378
+    },
+    {
+      "page_id": "digital_progress_2023:p035",
+      "pdf_page": 35,
+      "printed_page": 9,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 3014
+    },
+    {
+      "page_id": "digital_progress_2023:p036",
+      "pdf_page": 36,
+      "printed_page": 10,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 2064
+    },
+    {
+      "page_id": "digital_progress_2023:p037",
+      "pdf_page": 37,
+      "printed_page": 11,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 3125
+    },
+    {
+      "page_id": "digital_progress_2023:p038",
+      "pdf_page": 38,
+      "printed_page": 12,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 3162
+    },
+    {
+      "page_id": "digital_progress_2023:p039",
+      "pdf_page": 39,
+      "printed_page": 13,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 3728
+    },
+    {
+      "page_id": "digital_progress_2023:p040",
+      "pdf_page": 40,
+      "printed_page": 14,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 2705
+    },
+    {
+      "page_id": "digital_progress_2023:p041",
+      "pdf_page": 41,
+      "printed_page": 15,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 2359
+    },
+    {
+      "page_id": "digital_progress_2023:p042",
+      "pdf_page": 42,
+      "printed_page": 16,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 1653
+    },
+    {
+      "page_id": "digital_progress_2023:p043",
+      "pdf_page": 43,
+      "printed_page": 17,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 3887
+    },
+    {
+      "page_id": "digital_progress_2023:p044",
+      "pdf_page": 44,
+      "printed_page": 18,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 1789
+    },
+    {
+      "page_id": "digital_progress_2023:p045",
+      "pdf_page": 45,
+      "printed_page": 19,
+      "section": "chapter_1",
+      "section_title": "Digital Adoption: Accelerating Postpandemic, yet a Widening Divide",
+      "normalized_char_count": 3224
+    },
+    {
+      "page_id": "digital_progress_2023:p049",
+      "pdf_page": 49,
+      "printed_page": 23,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 2557
+    },
+    {
+      "page_id": "digital_progress_2023:p050",
+      "pdf_page": 50,
+      "printed_page": 24,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 2943
+    },
+    {
+      "page_id": "digital_progress_2023:p051",
+      "pdf_page": 51,
+      "printed_page": 25,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 3627
+    },
+    {
+      "page_id": "digital_progress_2023:p052",
+      "pdf_page": 52,
+      "printed_page": 26,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 3265
+    },
+    {
+      "page_id": "digital_progress_2023:p053",
+      "pdf_page": 53,
+      "printed_page": 27,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 2759
+    },
+    {
+      "page_id": "digital_progress_2023:p054",
+      "pdf_page": 54,
+      "printed_page": 28,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 2680
+    },
+    {
+      "page_id": "digital_progress_2023:p055",
+      "pdf_page": 55,
+      "printed_page": 29,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 3267
+    },
+    {
+      "page_id": "digital_progress_2023:p056",
+      "pdf_page": 56,
+      "printed_page": 30,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 4210
+    },
+    {
+      "page_id": "digital_progress_2023:p057",
+      "pdf_page": 57,
+      "printed_page": 31,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 4217
+    },
+    {
+      "page_id": "digital_progress_2023:p058",
+      "pdf_page": 58,
+      "printed_page": 32,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 2622
+    },
+    {
+      "page_id": "digital_progress_2023:p059",
+      "pdf_page": 59,
+      "printed_page": 33,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 3265
+    },
+    {
+      "page_id": "digital_progress_2023:p060",
+      "pdf_page": 60,
+      "printed_page": 34,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 3727
+    },
+    {
+      "page_id": "digital_progress_2023:p061",
+      "pdf_page": 61,
+      "printed_page": 35,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 2889
+    },
+    {
+      "page_id": "digital_progress_2023:p062",
+      "pdf_page": 62,
+      "printed_page": 36,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 4378
+    },
+    {
+      "page_id": "digital_progress_2023:p063",
+      "pdf_page": 63,
+      "printed_page": 37,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 2305
+    },
+    {
+      "page_id": "digital_progress_2023:p064",
+      "pdf_page": 64,
+      "printed_page": 38,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 4218
+    },
+    {
+      "page_id": "digital_progress_2023:p065",
+      "pdf_page": 65,
+      "printed_page": 39,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 3435
+    },
+    {
+      "page_id": "digital_progress_2023:p066",
+      "pdf_page": 66,
+      "printed_page": 40,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 3323
+    },
+    {
+      "page_id": "digital_progress_2023:p067",
+      "pdf_page": 67,
+      "printed_page": 41,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 3657
+    },
+    {
+      "page_id": "digital_progress_2023:p068",
+      "pdf_page": 68,
+      "printed_page": 42,
+      "section": "chapter_2",
+      "section_title": "The Digital Sector: A Driver of Innovation, Growth, and Job Creation",
+      "normalized_char_count": 4250
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "status": "ok",
+  "source": "starter/data/digital_progress_2023.pdf",
+  "manifest": "data/data_manifest.json",
+  "issues": []
+}

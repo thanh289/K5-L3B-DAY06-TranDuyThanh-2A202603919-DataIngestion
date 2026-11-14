@@ -1,0 +1,243 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Năm 2022, thế giới có bao nhiêu người dùng Internet và tương đương bao nhiêu phần dân số?",
+    "expected_answer": "5,3 tỷ người, tương đương khoảng hai phần ba dân số toàn cầu.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 30,
+    "printed_page": 4,
+    "evidence_quote": "The number of internet users reached 5.3 billion in 2022, representing two-thirds of the global population."
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Tại châu Phi, tỷ lệ dân số được phủ Internet di động và tỷ lệ thực sự sử dụng lần lượt là bao nhiêu?",
+    "expected_answer": "84% dân số được phủ sóng Internet di động nhưng chỉ 22% thực sự sử dụng.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 30,
+    "printed_page": 4,
+    "evidence_quote": "For instance, in Africa, mobile internet covers 84 percent of the population, but only 22 percent make use of it (Begazo, Blimpo, and Dutz 2023)."
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Trong chương 1 (Digital Adoption), điện thoại thông minh giá rẻ nhất chiếm ít nhất bao nhiêu phần trăm thu nhập năm của người sống dưới 2 USD/ngày?",
+    "expected_answer": "Ít nhất 14% thu nhập hằng năm của nhóm người sống dưới 2 USD/ngày.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 34,
+    "printed_page": 8,
+    "evidence_quote": "Even the cheapest smartphones are too expensive for the lowest-income groups, with prices accounting for 14 percent or more of annual income for persons living on less than US$2 per day.",
+    "filter": {
+      "section": "chapter_1"
+    }
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Tốc độ Internet thay đổi như thế nào ở các quốc gia thu nhập cao, trung bình và thấp kể từ khi đại dịch bắt đầu?",
+    "expected_answer": "Tốc độ tăng nhanh hơn nhiều tại các nước thu nhập cao so với thu nhập trung bình, còn tại các nước thu nhập thấp giảm nhẹ.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 35,
+    "printed_page": 9,
+    "evidence_quote": "However, speeds rose much faster in high-income countries than in middle-income countries and even fell slightly in low-income countries."
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Theo ước tính, khi độ nghiêm ngặt phong tỏa tăng một điểm trên thang 0–100, lượt tải ứng dụng kinh doanh và du lịch trong cùng tháng thay đổi thế nào?",
+    "expected_answer": "Lượt tải ứng dụng kinh doanh tăng khoảng 0,6%; lượt tải ứng dụng du lịch giảm khoảng 0,5% trong cùng tháng.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 38,
+    "printed_page": 12,
+    "evidence_quote": "On a scale of 0–100, a 1 unit increase in a country’s lockdown stringency predicted a 0.6 percent increase in business app downloads, a 0.2 percent increase in game app downloads, and a 0.5 percent drop in travel app downloads in the same month (refer to figure 1.12, panel a)."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Tác động tiêu cực của phong tỏa đối với mức sử dụng ứng dụng du lịch kéo dài bao lâu sau lần phong tỏa đầu?",
+    "expected_answer": "12 tháng sau lần phong tỏa đầu tiên.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 39,
+    "printed_page": 13,
+    "evidence_quote": "Further, the negative effect on the use of travel apps persisted for 12 months after the initial lockdown."
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trong khảo sát về doanh nghiệp, chỉ khoảng bao nhiêu phần trăm công ty ở Burkina Faso, Ethiopia và Senegal có website?",
+    "expected_answer": "Khoảng 13% doanh nghiệp.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 40,
+    "printed_page": 14,
+    "evidence_quote": "only around 13 percent of firms in Burkina Faso, Ethiopia, and Senegal have a website; these three countries are also the least likely of the countries surveyed to use social media for business purposes (refer to figure 1.14)."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Trong chương 1 (Digital Adoption), dưới bao nhiêu phần trăm doanh nghiệp ở Bangladesh, Burkina Faso, Ethiopia, Georgia, India, Senegal và Viet Nam sử dụng điện toán đám mây giai đoạn 2019–2022?",
+    "expected_answer": "Dưới 10% doanh nghiệp trong các quốc gia được liệt kê.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 41,
+    "printed_page": 15,
+    "evidence_quote": "Fewer than 10 percent of firms in Bangladesh, Burkina Faso, Ethiopia, Georgia, India, Senegal, and Viet Nam used cloud computing services during 2019–22 (refer to figure 1.14).",
+    "filter": {
+      "section": "chapter_1"
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "so_sanh",
+    "question": "Từ tháng 4/2020 đến tháng 12/2022, tỷ lệ doanh nghiệp siêu nhỏ và doanh nghiệp lớn đầu tư giải pháp số thay đổi từ bao nhiêu lên bao nhiêu?",
+    "expected_answer": "Doanh nghiệp siêu nhỏ: 10% lên 20% (gấp đôi); doanh nghiệp lớn: 20% lên 60% (gấp ba).",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 43,
+    "printed_page": 17,
+    "evidence_quote": "the percentage of micro firms investing in digital solutions doubled from 10 percent to 20 percent, but the percentage of large firms tripled from 20 percent to 60 percent (refer to figure 1.17)."
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Tốc độ tăng trưởng giá trị gia tăng trung bình hằng năm của dịch vụ CNTT trong giai đoạn 2000–2022 là bao nhiêu?",
+    "expected_answer": "8% mỗi năm, gần gấp đôi tốc độ tăng trưởng của kinh tế toàn cầu.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 49,
+    "printed_page": 23,
+    "evidence_quote": "Value added growth of information technology (IT) services averaged 8 percent annually between 2000 and 2022, growing nearly twice as fast as the global economy."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Trong chương 2 (The Digital Sector), hãy nêu ít nhất ba ví dụ về quy trình kinh doanh thường được thuê ngoài (BPO-ITES).",
+    "expected_answer": "Ví dụ: tổng đài/chăm sóc khách hàng, kế toán và ghi sổ, nhân sự, nhập dữ liệu, biên tập/dàn trang, thiết kế hoặc marketing.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 50,
+    "printed_page": 24,
+    "evidence_quote": "Common outsourced business processes include call center or customer services, accounting and bookkeeping, human resources, data entry, editing and typesetting, design, marketing, and so forth.",
+    "filter": {
+      "section": "chapter_2"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Việc làm trong toàn ngành ICT toàn cầu tăng từ khoảng bao nhiêu người năm 2000 lên bao nhiêu người năm 2022?",
+    "expected_answer": "Từ khoảng 37 triệu người năm 2000 lên 68 triệu người năm 2022.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 54,
+    "printed_page": 28,
+    "evidence_quote": "Global employment in the ICT sector reached 68 million in 2022, up from about 37 million in 2000."
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Trong chương 2 (The Digital Sector), việc làm trong sản xuất ICT của Việt Nam đạt gần bao nhiêu người năm 2021 và tốc độ tăng trung bình năm trong hai thập kỷ trước đó là bao nhiêu?",
+    "expected_answer": "Gần 1 triệu lao động năm 2021; tăng khoảng 21% mỗi năm trong hai thập kỷ.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 55,
+    "printed_page": 29,
+    "evidence_quote": "Viet Nam’s ICT manufacturing employment approached 1 million in 2021 and grew at an astonishing 21 percent annually during the past two decades.",
+    "filter": {
+      "section": "chapter_2"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Năm 2010, phụ nữ chiếm bao nhiêu phần trăm việc làm dịch vụ CNTT toàn cầu, thấp hơn năm 2020 bao nhiêu điểm phần trăm?",
+    "expected_answer": "23% năm 2010, thấp hơn năm 2020 là 6 điểm phần trăm.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 56,
+    "printed_page": 30,
+    "evidence_quote": "Back in 2010, women only accounted for 23 percent of global employment in the IT services industry, 6 percentage points below the level in 2020."
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo chương 2 (The Digital Sector), tập đoàn nào góp phần đưa Việt Nam trở thành một nước xuất khẩu hàng hóa ICT hàng đầu?",
+    "expected_answer": "Samsung.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 59,
+    "printed_page": 33,
+    "evidence_quote": "Samsung has turned Viet Nam into a leading ICT goods exporter.",
+    "filter": {
+      "section": "chapter_2"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Đại dịch COVID-19 thúc đẩy đáng kể việc sử dụng những loại ứng dụng di động nào?",
+    "expected_answer": "Các ứng dụng kinh doanh, giáo dục, tài chính, y tế/khám chữa bệnh, sức khỏe và mua sắm.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 37,
+    "printed_page": 11,
+    "evidence_quote": "The pandemic significantly boosted the use of business, education, finance, medical, health, and shopping apps."
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Khi so sánh các doanh nghiệp có mức sẵn sàng số trước đại dịch khác nhau, việc đầu tư vào giải pháp số trong đại dịch liên quan thế nào đến sự sụt giảm doanh số?",
+    "expected_answer": "Các doanh nghiệp đã đầu tư vào giải pháp số có mức sụt giảm doanh số nhỏ hơn rõ rệt so với doanh nghiệp không đầu tư, ở mọi mức sẵn sàng số trước đại dịch.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 44,
+    "printed_page": 18,
+    "evidence_quote": "Firms that invested in digital solutions during the pandemic also experienced a much smaller decline in sales relative to firms that did not invest across all levels of prepandemic digital readiness."
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Năm 2021, xuất khẩu dịch vụ ICT toàn cầu tăng bao nhiêu phần trăm, và đây là mức tăng nhanh nhất kể từ năm nào?",
+    "expected_answer": "Tăng 19%, nhanh nhất kể từ năm 2008.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 60,
+    "printed_page": 34,
+    "evidence_quote": "ICT services exports grew 19 percent in 2021, the fastest pace since 2008."
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Trong chương 2 (The Digital Sector), phân ngành nào chiếm tỷ trọng lớn nhất trong các thương vụ đầu tư mạo hiểm (VC) vào các nước thu nhập thấp và trung bình ở cả hai giai đoạn được so sánh; tỷ trọng tăng khoảng bao nhiêu điểm phần trăm?",
+    "expected_answer": "Thương mại điện tử (e-commerce); tỷ trọng tăng gần 6 điểm phần trăm.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 63,
+    "printed_page": 37,
+    "evidence_quote": "The e-commerce subsector had the highest share of VC deals going to low- and middle-income countries in both periods, and the share rose nearly 6 percentage points.",
+    "filter": {
+      "section": "chapter_2"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "metadata",
+    "question": "Trong chương 2 (The Digital Sector), trình duyệt/tìm kiếm Cốc Cốc dùng những cách bản địa hóa nào để cạnh tranh với Google tại Việt Nam?",
+    "expected_answer": "Hỗ trợ dấu thanh và dấu tiếng Việt, ưu tiên kết quả tìm kiếm phù hợp địa phương và theo hướng video-first.",
+    "gold_source_id": "digital_progress_2023",
+    "gold_page": 67,
+    "printed_page": 41,
+    "evidence_quote": "The Vietnamese browser and search engine Cốc Cốc has challenged Google’s growth in Viet Nam by factoring in Vietnamese language tones and accents, focusing on locally relevant search results, and embracing a video-first approach, given the affinity of local consumers for video content.",
+    "filter": {
+      "section": "chapter_2"
+    }
+  }
+]

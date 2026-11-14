@@ -1,0 +1,281 @@
+{
+  "run": {
+    "generated_at_utc": "2026-11-14T03:16:52+00:00",
+    "corpus_source": "data\\manifest.json",
+    "benchmark_source": "benchmark\\questions.json",
+    "model": "text-embedding-3-small",
+    "vector_dimensions": 1536,
+    "vector_store": "PostgreSQL + pgvector; exact cosine distance",
+    "top_k": 3,
+    "selected_content_pages": 37,
+    "benchmark_validation": {
+      "total": 20,
+      "dev": 15,
+      "test": 5,
+      "with_filter": 7,
+      "test_with_filter": 2
+    },
+    "chunk_stats": {
+      "A": {
+        "count": 274,
+        "min_chars": 59,
+        "avg_chars": 467.92,
+        "max_chars": 500,
+        "total_chunk_characters_including_overlap": 128209,
+        "sections": {
+          "chapter_1": 116,
+          "chapter_2": 158
+        }
+      },
+      "B": {
+        "count": 329,
+        "min_chars": 17,
+        "avg_chars": 352.79,
+        "max_chars": 500,
+        "total_chunk_characters_including_overlap": 116067,
+        "sections": {
+          "chapter_1": 143,
+          "chapter_2": 186
+        }
+      },
+      "C": {
+        "count": 329,
+        "min_chars": 17,
+        "avg_chars": 352.79,
+        "max_chars": 500,
+        "total_chunk_characters_including_overlap": 116067,
+        "sections": {
+          "chapter_1": 143,
+          "chapter_2": 186
+        },
+        "reuses_B_index": true
+      }
+    },
+    "full_gold_evidence_chunk_coverage_before_retrieval": {
+      "A": {
+        "questions_with_full_evidence_somewhere_in_index": 17,
+        "total_questions": 20,
+        "not_in_any_single_chunk": [
+          "q03",
+          "q11",
+          "q20"
+        ]
+      },
+      "B": {
+        "questions_with_full_evidence_somewhere_in_index": 19,
+        "total_questions": 20,
+        "not_in_any_single_chunk": [
+          "q07"
+        ]
+      },
+      "C": {
+        "questions_with_full_evidence_somewhere_in_index": 19,
+        "total_questions": 20,
+        "not_in_any_single_chunk": [
+          "q07"
+        ]
+      }
+    },
+    "embedding_api_calls_this_run": 1,
+    "embedding_query_tokens_this_run": 1218,
+    "query_embedding_elapsed_seconds": 2.423,
+    "search_elapsed_seconds_by_strategy": {
+      "A": 0.641,
+      "B": 0.666,
+      "C": 0.674
+    },
+    "total_elapsed_seconds": 28.235,
+    "document_embeddings_new_this_run": 0,
+    "estimated_usd_cost": null,
+    "cost_note": "Record actual query tokens; compute USD separately using provider pricing at run time",
+    "metric_scope": "Strict auto evidence match: correct document/page and entire normalized gold quote in ONE chunk. Manual equivalent-evidence adjudication pending.",
+    "manual_coherence_audit": "pending Step 8",
+    "manual_metadata_audit": "pending Step 8",
+    "manual_grounding_audit": "pending Step 8"
+  },
+  "metrics": {
+    "A": {
+      "dev": {
+        "questions": 15,
+        "hit_at_1": {
+          "correct": 5,
+          "total": 15,
+          "rate": 0.3333
+        },
+        "evidence_hit_at_3": {
+          "correct": 9,
+          "total": 15,
+          "rate": 0.6
+        },
+        "gold_page_at_3_diagnostic": {
+          "correct": 14,
+          "total": 15,
+          "rate": 0.9333
+        }
+      },
+      "test": {
+        "questions": 5,
+        "hit_at_1": {
+          "correct": 1,
+          "total": 5,
+          "rate": 0.2
+        },
+        "evidence_hit_at_3": {
+          "correct": 2,
+          "total": 5,
+          "rate": 0.4
+        },
+        "gold_page_at_3_diagnostic": {
+          "correct": 5,
+          "total": 5,
+          "rate": 1.0
+        }
+      },
+      "all": {
+        "questions": 20,
+        "hit_at_1": {
+          "correct": 6,
+          "total": 20,
+          "rate": 0.3
+        },
+        "evidence_hit_at_3": {
+          "correct": 11,
+          "total": 20,
+          "rate": 0.55
+        },
+        "gold_page_at_3_diagnostic": {
+          "correct": 19,
+          "total": 20,
+          "rate": 0.95
+        }
+      },
+      "filter_compliance": {
+        "compliant": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "B": {
+      "dev": {
+        "questions": 15,
+        "hit_at_1": {
+          "correct": 7,
+          "total": 15,
+          "rate": 0.4667
+        },
+        "evidence_hit_at_3": {
+          "correct": 10,
+          "total": 15,
+          "rate": 0.6667
+        },
+        "gold_page_at_3_diagnostic": {
+          "correct": 14,
+          "total": 15,
+          "rate": 0.9333
+        }
+      },
+      "test": {
+        "questions": 5,
+        "hit_at_1": {
+          "correct": 2,
+          "total": 5,
+          "rate": 0.4
+        },
+        "evidence_hit_at_3": {
+          "correct": 3,
+          "total": 5,
+          "rate": 0.6
+        },
+        "gold_page_at_3_diagnostic": {
+          "correct": 5,
+          "total": 5,
+          "rate": 1.0
+        }
+      },
+      "all": {
+        "questions": 20,
+        "hit_at_1": {
+          "correct": 9,
+          "total": 20,
+          "rate": 0.45
+        },
+        "evidence_hit_at_3": {
+          "correct": 13,
+          "total": 20,
+          "rate": 0.65
+        },
+        "gold_page_at_3_diagnostic": {
+          "correct": 19,
+          "total": 20,
+          "rate": 0.95
+        }
+      },
+      "filter_compliance": {
+        "compliant": 0,
+        "total": 0,
+        "rate": null
+      }
+    },
+    "C": {
+      "dev": {
+        "questions": 15,
+        "hit_at_1": {
+          "correct": 7,
+          "total": 15,
+          "rate": 0.4667
+        },
+        "evidence_hit_at_3": {
+          "correct": 10,
+          "total": 15,
+          "rate": 0.6667
+        },
+        "gold_page_at_3_diagnostic": {
+          "correct": 14,
+          "total": 15,
+          "rate": 0.9333
+        }
+      },
+      "test": {
+        "questions": 5,
+        "hit_at_1": {
+          "correct": 2,
+          "total": 5,
+          "rate": 0.4
+        },
+        "evidence_hit_at_3": {
+          "correct": 3,
+          "total": 5,
+          "rate": 0.6
+        },
+        "gold_page_at_3_diagnostic": {
+          "correct": 5,
+          "total": 5,
+          "rate": 1.0
+        }
+      },
+      "all": {
+        "questions": 20,
+        "hit_at_1": {
+          "correct": 9,
+          "total": 20,
+          "rate": 0.45
+        },
+        "evidence_hit_at_3": {
+          "correct": 13,
+          "total": 20,
+          "rate": 0.65
+        },
+        "gold_page_at_3_diagnostic": {
+          "correct": 19,
+          "total": 20,
+          "rate": 0.95
+        }
+      },
+      "filter_compliance": {
+        "compliant": 7,
+        "total": 7,
+        "rate": 1.0
+      }
+    }
+  }
+}

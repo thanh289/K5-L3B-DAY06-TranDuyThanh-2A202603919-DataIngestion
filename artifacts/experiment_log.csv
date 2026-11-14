@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+﻿strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
+A,fixed_characters,500,50,"document_id,source,page,section",none,text-embedding-3-small,Baseline: fixed 500 characters with 50 overlap,5/15 (33.3%),9/15 (60.0%),1/5 (20.0%),2/5 (40.0%),Automatic strict evidence-string matching; manual audits pending Step 8; exact cosine
+B,paragraph_heuristic,500,0,"document_id,source,page,section",none,text-embedding-3-small,Paragraph grouping may preserve complete evidence better than A,7/15 (46.7%),10/15 (66.7%),2/5 (40.0%),3/5 (60.0%),Automatic strict evidence-string matching; manual audits pending Step 8; exact cosine
+C,same_as_B,500,0,"document_id,source,page,section",section if question provides it,text-embedding-3-small,Section filter may improve B on scoped questions,7/15 (46.7%),10/15 (66.7%),2/5 (40.0%),3/5 (60.0%),Automatic strict evidence-string matching; manual audits pending Step 8; exact cosine
